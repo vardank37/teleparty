@@ -151,7 +151,7 @@ function ShowMessage(props) {
   console.log(usersCount, userName)
   return (
     (!loading && usersCount === 0 && userName.trim() !== '') ?
-      <Typography >No user found!!</Typography> :
+      <Typography color={"black"} >No user found!!</Typography> :
       <Fragment />
   )
 }
